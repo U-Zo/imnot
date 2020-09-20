@@ -1,0 +1,13 @@
+:root {
+  --break-xs: 480px;
+  --break-sm: 768px;
+  --break-md: 1024px;
+  --break-lg: 1200px;
+  --break-xl: 1440px;
+  --break-xxl: 1600px;
+  --color-white: #ffffff;
+  --color-black: #0e1111;
+  --color-gray: #f7f7f8;
+  --font-size-16: 1.6rem;
+  --font-size-18: 1.8rem;
+}
