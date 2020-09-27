@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from './components/common/Header';
+import { Route } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Route component={LoginPage} path="/login/" />
+      <Route component={RegisterPage} path="/register/" />
     </>
   );
 };
